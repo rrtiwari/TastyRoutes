@@ -35,11 +35,18 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
     $ npm start
 
 # ScreenShots
-<!-- ## Home Page -->
-![Home Page](photo6.png)
 ---
 <!-- ## Signup Page -->
-![Signup Page](photo4.png)
+![Signup Page](./Photos/photo1.png)
 
-<!-- ## SignIn Page -->
-![Signup Page](photo5.png)
+<!-- ## Login Page -->
+![Login Page](./Photos/photo2.png)
+
+<!-- ## Navbar Page -->
+![Navbar Page](./Photos/photo3.png)
+
+<!-- ## Home Page -->
+![Home Page](./Photos/photo4.png)
+
+<!-- ## Payment Page -->
+![Payment Page](./Photos/photo5.png)
