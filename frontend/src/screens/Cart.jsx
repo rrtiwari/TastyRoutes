@@ -33,7 +33,7 @@ export default function Cart() {
         "https://www.mintformations.co.uk/blog/wp-content/uploads/2020/05/shutterstock_583717939.jpg",
       handler: async function (response) {
         let res = await fetch(
-          "http://localhost:5000/api/auth/orderData",
+          "https://tastyroutes.onrender.com/api/auth/orderData",
           {
             method: "POST",
             headers: {
