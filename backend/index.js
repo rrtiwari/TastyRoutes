@@ -6,7 +6,8 @@ const mongoDB = require("./db");
 
 // CORS Middleware
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:5173");
+  const allowedOrigin = process.env.CLIENT_URL || "http://localhost:5173";
+  res.setHeader("Access-Control-Allow-Origin", allowedOrigin);
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept, auth-token"
